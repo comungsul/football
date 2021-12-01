@@ -13,7 +13,7 @@
 * ![MongoDB](https://img.shields.io/badge/-MongoDB-000000?style=flat&logo=mongodb)
 
 ## Comungsul
- - expose port번호는 8002로 했습니다.
+ - expose port번호는 8001로 했습니다.
  
 
 <!-- LICENSE -->
