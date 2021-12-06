@@ -29,6 +29,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 - epl 구단 정보 보여주기
+- epl 구단별 스쿼드 확인
+- epl 구단 순위 확인
 
 
 
@@ -39,13 +41,8 @@
 * ![MongoDB](https://img.shields.io/badge/-MongoDB-000000?style=flat&logo=mongodb)
 
 
-### Architecture
-  
-
-## Role
-
-* [한상우](https://github.com/sktkddn777) - 백엔드
-* [김주한](https://github.com/juhan2103) - 프론트엔드
+### port
+- expose: 8001
 
 <!-- LICENSE -->
 ## License
