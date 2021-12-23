@@ -26,6 +26,11 @@ services:
       interval: 20s
       timeout: 10s
       retries: 3
+    deploy:
+      resources:
+        limits:
+          cpus: '0.001'
+          memory: 50M
 
   fastapi:
     image: seanhong2000/football
@@ -45,6 +50,11 @@ services:
       interval: 20s
       timeout: 10s
       retries: 3
+    deploy:
+      resources:
+        limits:
+          cpus: '0.001'
+          memory: 50M
 
 # volume 설정.
 volumes:
