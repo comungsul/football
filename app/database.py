@@ -3,7 +3,7 @@ from os import path
 
 BASE_DIR = path.dirname(path.abspath(__file__))
 
-mongo_details = "mongodb://root:example@mongo:27017"
+mongo_details = "mongodb://root:example@mongodb:27017"
 client = MongoClient(mongo_details)
 database = client.teams
 team_collection = database.get_collection("teams_collection")

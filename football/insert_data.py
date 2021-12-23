@@ -11,7 +11,7 @@ class Database:
 
   def connect_mongo(self):
     secrets = json.loads(open(self.SECRET_PATH).read())
-    MONGO_DETAILS = f"mongodb://{secrets['SECRET_ID']}:{secrets['SECRET_PW']}@mongo:27017"
+    MONGO_DETAILS = f"mongodb://{secrets['SECRET_ID']}:{secrets['SECRET_PW']}@mongodb:27017"
     try:
         client = MongoClient(MONGO_DETAILS)
         print("Connect Successful")
